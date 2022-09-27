@@ -1,0 +1,27 @@
+/* кольори фону
+FFFFFF
+2F303A
+F5F5F5
+F5F4FA */
+/*  Кольори шрифтів
+000000
+2196F3
+212121
+757575
+FFFFFF 
+футер контаткти rgba(255, 255, 255, 0.6);*/
+
+.list {
+    list-style: none;
+}
+/* nav */
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+.section-title {
+    color: #212121;
+}
