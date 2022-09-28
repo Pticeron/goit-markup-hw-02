@@ -1,18 +1,19 @@
-/* кольори фону
-FFFFFF
-2F303A
-F5F5F5
-F5F4FA */
-/*  Кольори шрифтів
-000000
-2196F3
-212121
-757575
-FFFFFF 
-футер контаткти rgba(255, 255, 255, 0.6);*/
+:root {
+    --one-text-color: #212121;
+    --second-text-color: #757575;
+    --one-backgraund-color: #F5F5F5;
+    --second-backgraund-color: #F5F4FA;
+    --akcent-color: #2196F3;
+    --second-akcent-color: #FFFFFF;
+    --one-font-family: "Roboto", sans-serif;
+    --logo-font-size: "Raleway", sans-serif;
+}
 
 .list {
     list-style: none;
+}
+.link {
+    text-decoration: none;
 }
 /* nav */
 .site-nav .link {
