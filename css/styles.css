@@ -4,6 +4,7 @@
     --second-text-color: #757575;
     --one-backgraund-color: #F5F5F5;
     --second-backgraund-color: #F5F4FA;
+    --hero-bcg: #2F303A;
     --akcent-color: #2196F3;
     --second-akcent-color: #FFFFFF;
     --card-bcg: #EEEEEE;
@@ -27,7 +28,9 @@ body {
     background-color: var(--one-backgraund-color);
 }
 /* HEADER */
-
+.header-site {
+    background-color: var(--second-akcent-color);
+}
 .logo {
     font-family: var(--logo-font-style);
     font-weight: 700;
@@ -36,7 +39,7 @@ body {
     color: var(--logo-color);
 }
 .web {
-    color: var(--akcent-color)
+    color: var(--akcent-color);
 }
 .site-nav .link {
     color: var(--one-text-color);
@@ -45,13 +48,50 @@ body {
 .site-nav .link:focus {
     color: var(--akcent-color);
 }
-.site-contacts  {
+.site-contacts .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    color: tomato;
+    color: var(--second-text-color);
 }
-.section-title {
-    color: var(--one-text-color);
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+    color: var(--akcent-color);
 }
+/* Hero */
+.section-hero {
+    background-color: var(--hero-bcg);
+}
+.title-hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--second-akcent-color);
+}
+.button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: var(--second-akcent-color);
+    background-color: var(--akcent-color);
+}
+.title-three {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.142;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.text {
+            font-weight: 400;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: var(--second-text-color)
+}  
+      
