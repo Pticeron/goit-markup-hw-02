@@ -1,12 +1,16 @@
 :root {
+    /* color */
     --one-text-color: #212121;
     --second-text-color: #757575;
     --one-backgraund-color: #F5F5F5;
     --second-backgraund-color: #F5F4FA;
     --akcent-color: #2196F3;
     --second-akcent-color: #FFFFFF;
+    --card-bcg: #EEEEEE;
+    --logo-color: #000000;
+    /* font */
     --one-font-family: "Roboto", sans-serif;
-    --logo-font-size: "Raleway", sans-serif;
+    --logo-font-style: "Raleway", sans-serif;
 }
 
 .list {
@@ -15,14 +19,39 @@
 .link {
     text-decoration: none;
 }
-/* nav */
+body {
+    font-family: var(--one-font-family);
+    color: var(--one-text-color);
+    font-size: 16px;
+    line-height: 1.171;
+    background-color: var(--one-backgraund-color);
+}
+/* HEADER */
+
+.logo {
+    font-family: var(--logo-font-style);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    color: var(--logo-color);
+}
+.web {
+    color: var(--akcent-color)
+}
 .site-nav .link {
-    color: #212121;
+    color: var(--one-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--akcent-color);
+}
+.site-contacts  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: tomato;
 }
 .section-title {
-    color: #212121;
+    color: var(--one-text-color);
 }
