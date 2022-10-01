@@ -159,16 +159,14 @@ body {
 .section-card {
   background-color: var(--one-backgraund-color);
 }
-.button-filter {
+.button-card {
   font-family: var(--one-font-family);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--one-text-color);
-  background-color: tomato;
+  background-color: var(--second-backgraund-color);
   cursor: pointer;
   border-radius: 4px;
   width: 112px;
@@ -176,4 +174,28 @@ body {
   left: 726px;
   top: 174px;
   border: none;
+}
+.button-card:hover,
+.button-card:focus {
+  color: var(--second-akcent-color);
+  background-color: var(--akcent-color);
+}
+.boxes-top {
+  background-color: var(--card-bcg);
+}
+.boxes-title {
+  font-family: var(--one-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--one-text-color);
+}
+.boxes-text {
+  font-family: var(--one-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
